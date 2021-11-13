@@ -30,7 +30,7 @@ namespace Calculator1
         private void InitializeComponent()
         {
             this.btCong = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtTinhtoan = new System.Windows.Forms.Label();
             this.txtA = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,15 +48,15 @@ namespace Calculator1
             this.btCong.Text = "+";
             this.btCong.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // txtTinhtoan
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(254, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Tính toán";
+            this.txtTinhtoan.AutoSize = true;
+            this.txtTinhtoan.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtTinhtoan.Location = new System.Drawing.Point(254, 58);
+            this.txtTinhtoan.Name = "txtTinhtoan";
+            this.txtTinhtoan.Size = new System.Drawing.Size(86, 25);
+            this.txtTinhtoan.TabIndex = 1;
+            this.txtTinhtoan.Text = "Tính toán";
             // 
             // txtA
             // 
@@ -105,7 +105,7 @@ namespace Calculator1
             // 
             // txtKetqua
             // 
-            this.txtKetqua.Location = new System.Drawing.Point(147, 232);
+            this.txtKetqua.Location = new System.Drawing.Point(148, 232);
             this.txtKetqua.Name = "txtKetqua";
             this.txtKetqua.Size = new System.Drawing.Size(346, 31);
             this.txtKetqua.TabIndex = 7;
@@ -121,7 +121,7 @@ namespace Calculator1
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtA);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtTinhtoan);
             this.Controls.Add(this.btCong);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -133,7 +133,7 @@ namespace Calculator1
         #endregion
 
         private System.Windows.Forms.Button btCong;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtTinhtoan;
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
